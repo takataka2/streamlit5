@@ -7,7 +7,7 @@ import pandas as pd
 from PIL import Image
 
 st.title("Web App")
-st.write("**これがstreamlitアプリ**")
+st.write("**これは修正したアプリ**")
 
 img = Image.open("dog.jpg")
 st.image(img,width=400)
