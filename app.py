@@ -12,6 +12,8 @@ st.write("**これがstreamlitアプリ**")
 img = Image.open("dog.jpg")
 st.image(img,width=400)
 
+st.video("https://www.youtube.com/watch?v=DM0bgYFGCIk")
+
 answer = st.button('Say hello')
 
 if answer == True:
