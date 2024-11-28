@@ -29,12 +29,4 @@ map_data = pd.DataFrame(data)
 # 地図に散布図を描く
 st.map(map_data)
 
-import streamlit as st
-import matplotlib.pyplot as plt
-import numpy as np
 
-arr = np.random.normal(1, 1, size=100)
-fig, ax = plt.subplots()
-ax.hist(arr, bins=20)
-
-st.pyplot(fig)
